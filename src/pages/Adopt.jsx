@@ -42,7 +42,7 @@ const AdoptionList = ({ adopt }) => {
         }
         return (
             <React.Fragment key={adopt.slug + "-" + index}>
-                <div className="adoption-container" >
+                <div className="adoption-container">
                     <div className='individual--card'>
                         <img src={getFeaturedImage(adopt)} alt="Post Featured Image" />
                         <h4 className="title">{adopt.title.rendered}</h4>
