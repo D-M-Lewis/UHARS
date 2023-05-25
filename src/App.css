@@ -257,10 +257,10 @@ button:hover {
 .individual--card {
   display: flex;
   flex-direction: column;
+  margin: 40px;
 }
 
-.adoption-container, .lost-container {
-  margin: 40px;
+.lost-container, .adoption-container {
   display: flex;
   justify-content: center;
   min-height: 700px;
@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6, footer {
     justify-content: center;
   }
 
-  .adoption-container, .lost-container {
+  .lost-container, .adoption-container{
     margin-top: 20px;
     display: flex;
     justify-content: center;
