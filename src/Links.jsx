@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Shopfront from './pages/shop/Shopfront'
 import Product from './pages/shop/Product'
-import Adopt from './pages/adopt'
+import Adopt from './pages/Adopt'
 import Lost from './pages/Lost'
 import LoadingScreen from './components/LoadingScreen'
 // Import Components
