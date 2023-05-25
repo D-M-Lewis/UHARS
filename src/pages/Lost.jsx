@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect, Fragment } from 'react'
 import axios from 'axios'
 import LoadingScreen from '../components/LoadingScreen'
 
@@ -41,15 +41,15 @@ const LostnFoundList = ({ lost }) => {
         }
 
         return (
-            <>
+            <React.Fragment key={lost.slug + "-" + index}>
                 <div className="lost-container">
-                    <div className='individual--card' key={lost.slug + "-" + index} >
+                    <div className='individual--card' >
                         <img src={getFeaturedImage(lost)} alt="Post Featured Image" />
                         <h4 className="title">{lost.title.rendered}</h4>
                         <div dangerouslySetInnerHTML={{ __html: lost.content.rendered }} />
                     </div>
                 </div>
-            </>
+            </React.Fragment>
         )
     })
 
