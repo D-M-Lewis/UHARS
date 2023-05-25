@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6, footer {
     justify-content: center;
   }
 
-  .adoption-container {
+  .adoption-container, .lost-container {
     margin-top: 20px;
     display: flex;
     justify-content: center;
