@@ -23,7 +23,7 @@ const Header = () => {
             <div id='topnav'>
                 {/* Desktop Menu, which only appears on large screens */}
                 <div className="logo__box">
-                    <Link to="/"><img className="logo__image" src="{logo}" alt="Cat with large heart logo" /></Link>
+                    <Link to="/"><img className="logo__image" src={logo} alt="Cat with large heart logo" /></Link>
                 </div>
                 <div className="menu">
                     <ul id='menu'>
