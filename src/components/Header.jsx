@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { List } from 'react-bootstrap-icons'
 import MobileMenu from '../components/MobileMenu'
+import logo from '../../public/Logo.png'
 
 const Header = () => {
     //declaring on / off for mobile menu
@@ -22,7 +23,7 @@ const Header = () => {
             <div id='topnav'>
                 {/* Desktop Menu, which only appears on large screens */}
                 <div className="logo__box">
-                    <Link to="/"><img className="logo__image" src="public/logo.png" alt="Cat with large heart logo" /></Link>
+                    <Link to="/"><img className="logo__image" src="{logo}" alt="Cat with large heart logo" /></Link>
                 </div>
                 <div className="menu">
                     <ul id='menu'>
