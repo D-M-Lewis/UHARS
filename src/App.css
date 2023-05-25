@@ -259,7 +259,7 @@ button:hover {
   flex-direction: column;
 }
 
-.adoption-container {
+.adoption-container, .lost-container {
   margin: 40px;
   display: flex;
   justify-content: center;
